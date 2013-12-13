@@ -520,7 +520,7 @@ In a CGI::Application module:
 =head1 SINGLETON SUPPORT
 
 This module can be used as a singleton object.  This means that when the object
-is created, it will remain accessable for the duration of the process.  This can
+is created, it will remain accessible for the duration of the process.  This can
 be useful in persistent environments like mod_perl and PersistentPerl, since the
 object only has to be created one time, and will remain in memory across multiple
 requests.  It can also be useful if you want to setup a DIE handler, or WARN handler,
