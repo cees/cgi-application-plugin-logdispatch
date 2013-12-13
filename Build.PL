@@ -16,5 +16,10 @@ Module::Build->new(
     create_makefile_pl => 'traditional',
     dist_author => 'Cees Hek <ceeshek@gmail.com>',
     dist_abstract => 'Plugin that adds Log::Dispatch support to CGI::Application',
+    meta_merge => {
+        resources => {
+            repository => 'https://github.com/cees/cgi-application-plugin-logdispatch',
+        },
+    },
 )->create_build_script;
 
